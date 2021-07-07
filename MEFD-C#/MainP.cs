@@ -27,7 +27,7 @@ namespace MEF3D
 			Vector T = new Vector();
 
 			Console.Write("IMPLEMENTACION DEL METODO DE LOS ELEMENTOS FINITOS\n");
-			Console.Write("\t- TRANSFERENCIA DE CALOR\n");
+			Console.Write("\t- MOVIMIENTO DE VIGA\n");
 			Console.Write("\t- 3 DIMENSIONES\n");
 			Console.Write("\t- FUNCIONES DE FORMA LINEALES\n");
 			Console.Write("\t- PESOS DE GALERKIN\n");

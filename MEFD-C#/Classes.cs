@@ -38,7 +38,7 @@ namespace MEF3D
 			DIRICHLET,
 			NEUMANN
 		}
-
+		//Son 10 nodos en este ejercicio
 		public abstract class item
 		{
 			protected int id;
@@ -49,12 +49,18 @@ namespace MEF3D
 			protected int node2;
 			protected int node3;
 			protected int node4;
+			protected int node5;
+			protected int node6;
+			protected int node7;
+			protected int node8;
+			protected int node9;
+			protected int node10;
 			protected float value;
 			public void setId(int identifier)
 			{
 				id = identifier;
 			}
-
+			//10 funciones para nodos
 			public void setX(float x_coord)
 			{
 				x = x_coord;
@@ -90,6 +96,31 @@ namespace MEF3D
 				node4 = node_4;
 			}
 
+			public void setNode5(int node_5)
+			{
+				node4 = node_5;
+			}
+
+			public void setNode6(int node_6)
+			{
+				node4 = node_6;
+			}
+			public void setNode7(int node_7)
+			{
+				node4 = node_7;
+			}
+			public void setNode8(int node_8)
+			{
+				node4 = node_8;
+			}
+			public void setNode9(int node_9)
+			{
+				node4 = node_9;
+			}
+			public void setNode10(int node_10)
+			{
+				node4 = node_10;
+			}
 			public void setValue(float value_to_assign)
 			{
 				value = value_to_assign;
@@ -133,6 +164,36 @@ namespace MEF3D
 			public int getNode4()
 			{
 				return node4;
+			}
+
+			public int getNode5()
+			{
+				return node5;
+			}
+
+			public int getNode6()
+			{
+				return node6;
+			}
+
+			public int getNode7()
+			{
+				return node7;
+			}
+
+			public int getNode8()
+			{
+				return node8;
+			}
+
+			public int getNode9()
+			{
+				return node9;
+			}
+
+			public int getNode10()
+			{
+				return node10;
 			}
 
 			public float getValue()

@@ -118,7 +118,7 @@ namespace MEF3D
 
 			file.close();
 
-			//Se corrigen los Ã­ndices en base a las filas que serÃ¡n eliminadas
+			//Se corrigen los índices en base a las filas que serÃ¡n eliminadas
 			//luego de aplicar las condiciones de Dirichlet
 			correctConditions(ndirich, m.getDirichlet(), m.getDirichletIndices());
 		}
